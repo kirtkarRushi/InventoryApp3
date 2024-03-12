@@ -23,4 +23,9 @@ public class HomeController {
 	{
 		hs.getdata();
 	}
+	@deletemapping("/delete")
+	public void delete()
+	{
+		hs.delete();
+	}
 }
